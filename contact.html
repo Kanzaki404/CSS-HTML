@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>1DV525 Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/Style.css">
+
+
+
+</head>
+
+<body class="contacto">
+    <header>
+        <!--NAV-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="box1">
+        <div class="column Left">
+            <!----------------------------------------------------------Nyan cats on left side ------------------->
+
+            <img class="indexCat" src="https://78.media.tumblr.com/8210fd413c5ce209678ef82d65731443/tumblr_mjphnqLpNy1s5jjtzo1_400.gif"
+                alt="cat" title="kitty">
+            <img class="indexCat" src="https://78.media.tumblr.com/8210fd413c5ce209678ef82d65731443/tumblr_mjphnqLpNy1s5jjtzo1_400.gif"
+                alt="cat" title="kitty">
+
+        </div>
+
+        <div class="column Mid">
+            <h1 class="contactH1">Contact</h1>
+            <br>
+            <!--POST method for sending message with no actual function "sendinProcess.js" just for the exmaple-->
+            <form action="sendingProcess.js" method="POST">
+
+
+                <div class="fieldsSet1">
+                    <fieldset class="label">
+                        <legend class=>Ask your question</legend>
+                        <label class="selectLabel">Type: </label>
+
+                        <select class="selection" name="Type: ">
+                            <Option>Question</Option>
+                            <Option>Suggestion</Option>
+                            <Option>Other</Option>
+                        </select>
+                        <br>
+                        <label class="nameLabel">Name: </label>
+                        <br>
+                        <input class="inputBox" type="text">
+                        <!--input area for name-->
+                        <br>
+                        <label>Question:</label>
+                        <br>
+                        <textarea class="inputArea" name="question" cols="45" rows="5"></textarea>
+                        <!--message box for message-->
+                    </fieldset>
+                </div>
+                <br>
+
+                <div class="fieldsSet2">
+                    <fieldset class="label">
+                        <legend>Ask your question</legend>
+                        <label>Telephone: </label>
+                        <!--Telephone label and checkbox-->
+                        <input type="checkbox">
+                        <br>
+                        <label>E-mail: </label>
+                        <!--E-Mail label and checkbox-->
+                        <input type="checkbox">
+
+                    </fieldset>
+                </div>
+                <br>
+                <input class="sendButton" type="button" name="send" value="[SEND]">
+            </form>
+
+
+
+        </div>
+
+        <div class="column Right">
+            <!--nyan cat right side-------------------------------------------------------------------------------------------------------------------------------->
+            <img class="indexCat" src="https://78.media.tumblr.com/8210fd413c5ce209678ef82d65731443/tumblr_mjphnqLpNy1s5jjtzo1_400.gif"
+                alt="cat" title="kitty">
+            <img class="indexCat" src="https://78.media.tumblr.com/8210fd413c5ce209678ef82d65731443/tumblr_mjphnqLpNy1s5jjtzo1_400.gif"
+                alt="cat" title="kitty">
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

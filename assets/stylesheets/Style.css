@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
+/*Same stlying on all the htmls to get a consistent feeling*/
+
+body {
+	background-color: #061072;
+	font-family: 'Press Start 2P', cursive;
+	color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+/*Contact page background*/
+
+.contacto {
+	background-image: url(../img/35Lun7R.jpg);
+	background-position: top;
+	opacity: 0.9;
+}
+
+p {
+	/*Text settings*/
+	padding: 0 10px;
+	text-align: left;
+	line-height: 1.8;
+}
+
+header, section, .main {
+	margin: 0 auto;
+}
+
+footer .footerP {
+	/* keep it down keep it centered*/
+	text-align: center;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+}
+
+.main h1 {
+	/*welcome in the center of the screen */
+	text-align: center;
+}
+
+header, .main, section {
+	max-width: 800px;
+}
+
+.Left, .Right {
+	/*Left and Right column 20% and middle one 60% = all 100%*/
+	width: 20%;
+}
+
+.Mid {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	background-color: transparent;
+}
+
+.unorderList {
+	color: white;
+	z-index: -1;
+}
+
+.column {
+	float: left;
+}
+
+/*NAV*/
+
+nav {
+	padding: 0;
+	margin: 0;
+	background-color: rgb(0, 170, 170);
+	list-style: none;
+	text-align: center;
+}
+
+ul {
+	/*Dos like green bar on nav*/
+	background-color: rgb(0, 170, 170);
+	display: inline-block;
+}
+
+nav ul li {
+	display: inline;
+	font-size: 0.8em;
+}
+
+.unorderList {
+	/* unordered list of nav is coloring the unordered list in About page therefore repainted the background*/
+	background-color: #061072;
+}
+
+nav a {
+	/*navigation menu text stlye*/
+	text-decoration: none;
+	letter-spacing: 2px;
+	padding: 16px;
+	color: #000;
+}
+
+nav a:hover, nav li:hover {
+	/*hover effect on navigation bar*/
+	color: #fff;
+	background-color: black;
+}
+
+/*MAIN*/
+
+.main {
+	overflow: hidden;
+	/* Ensures the content is not revealed until the animation */
+	white-space: nowrap;
+	/* Keeps the content on a single line */
+	margin: auto auto;
+	/* Gives that scrolling effect as the typing happens */
+	letter-spacing: .30em;
+	/* Adjust as needed */
+	animation: typing 3s steps(200, end);
+}
+
+/* The typing effect */
+
+@keyframes typing {
+	from {
+		width: 0
+	}
+	to {
+		width: 100%
+	}
+}
+
+.blogH1, .contactH1, .aboutH1 {
+	/*same animation from welcome h1 for the rest of the h1's*/
+	overflow: hidden;
+	white-space: nowrap;
+	margin: 1 auto;
+	letter-spacing: .30em;
+	animation: typing 2s steps(100, end);
+}
+
+img.indexCat {
+	/* size of the nyan cat at the welcome page*/
+	width: 30%;
+	height: 30%;
+	padding: 20% 30%;
+}
+
+.inputBox {
+	/*lining up with the textBox for message */
+	width: 332px;
+}
+
+.sendButton {
+	/*fancy dos like button*/
+	border: none;
+	color: white;
+	background-color: transparent;
+	font-family: 'Press Start 2P', cursive;
+	margin: 10px;
+	padding: 10px 5px;
+}
+
+.sendButton:hover {
+	/*button hover effect*/
+	color: black;
+	background-color: red;
+}
+
+label {
+	/*positioning of the contact labels*/
+	display: inline-block;
+	padding: 10px 10px 0px 5px;
+}
+
+hr {
+	display: block;
+	border: 0;
+	border-top: 4px solid rgb(0, 170, 170);
+}
+
+.block {
+	list-style-position: inside;
+	/*Numbers of the ordered list were left out*/
+	float: left;
+	width: 50%;
+	line-height: 1.8;
+}
+
+h3 {
+	padding: 0 0 0 40px;
+	letter-spacing: 2px;
+}
+
+.memeCat {
+	/*h3 for the memeCat to the left h3 was affected due to previous styling*/
+	float: left;
+	padding: 10px 0 0 240px;
+}
+
+.sadCat {
+	/*position image*/
+	display: block;
+	margin-left: 25%;
+	margin-right: 50%;
+	width: 50%;
+}
+
+div.box1 {
+	margin-top: 10%;
+}
+
+.Mid ol li {
+	/*list styling*/
+	letter-spacing: 1px;
+	padding: 2px 0px;
+	line-height: 25px;
+}
+
+.metaList {
+	/*Example meta list from wiki style*/
+	opacity: 0.8;
+}
+
+.Mid h2 {
+	line-height: 35px;
+}
